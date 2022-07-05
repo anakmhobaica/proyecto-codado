@@ -1,0 +1,12 @@
+CREATE TABLE data_usuario(
+
+id SERIAL PRIMARY KEY,  
+nombre VARCHAR (200) NOT NULL,
+cedula VARCHAR(10) NOT NULL,
+edad integer NOT NULL,
+telefono VARCHAR(20) NOT NULL,
+curso VARCHAR(50) NOT NULL,
+correo VARCHAR(200) NOT NULL, 
+fecha_creacion TIMESTAMP WITH TIME ZONE
+
+);
