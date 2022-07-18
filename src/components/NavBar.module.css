@@ -31,6 +31,7 @@
 
 li{
     display: inline;
+    /* width: 155px; */
 }
 
 .linkNavbar{
@@ -54,18 +55,27 @@ li{
 .line {
     background-color: #D36E6E;
     border: none;
-    height: 3px;
+    height: 0px;
     width: 100%;
     pointer-events: none;
     opacity: 0;
-    transition: all 0.5s cubic-bezier(1,2,0.2,0.6);
+    /* transition: all 0.5s cubic-bezier(1,2,0.2,0.6); */
     position: absolute;
     bottom: 0;
-    left: var(--left, calc(100%/var(--items) * (var(--index) - 1)));
+    -moz-transition: height .5s ease;
+    -webkit-transition: height .5s ease;
+    -o-transition: height .5s ease;
+    transition: height .5s ease;
+}
+
+.linkNavbar:hover ~ .line{
+    height: 4px;
+    opacity: 1;
+}
+    /* left: var(--left, calc(100%/var(--items) * (var(--index) - 1)));
     width: var(--width, calc(100% / var(--items)));
     --index: 0;
     --items:4;
-    /* z-index: 1; */
 }
 
  .linkNavbar:hover ~ .line{
@@ -85,7 +95,7 @@ li{
 
 .linkNavbar:nth-of-type(4):hover ~ .line{
     --index:4;
-}
+} */
 
 /* .links .linkNavbar:nth-of-type(5):hover~.line{
     --index:5;
@@ -135,6 +145,7 @@ li{
     background-color: #D36E6E;
     border: 1px solid #D36E6E;
     transition: .5s;
+    border-radius: 10px;
     /* transform: scale(1.1); */
 }
 
@@ -144,4 +155,12 @@ li{
     align-items: center;
     width: 550px;
     padding-right: 80px;
+}
+
+.divOption {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }

@@ -9,3 +9,14 @@
     /* margin-top: 130px; */
     margin-bottom: 75px;
 }
+
+.textFlayer{
+    height: 206px;
+    width: 447px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'Inter';
+    text-align: left;
+    color: black;
+    margin-left: 90px;
+}

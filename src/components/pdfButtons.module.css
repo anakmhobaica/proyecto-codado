@@ -1,0 +1,22 @@
+.pdfButton{
+    color: white;
+    background-color: #D36E6E;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    margin: auto;
+}
+
+.pdfButton:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.toPDF {
+    margin: auto;
+}

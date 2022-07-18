@@ -8,21 +8,24 @@ export default function Footer() {
             <hr />
             <div className={styles.infoFooter}>
                 <h3 className={styles.subtitlesFooter}>VISÍTANOS</h3>
-                <p className={styles.textInfo}>Direccion</p>
+                <p className={styles.textInfo}>Edf. IUDAG
+Esquina de Sociedad a San Francisco, Av. Universidad, Caracas 1012 Distrito Capital, Venezuela</p>
             </div>
         </div>
         <div className={styles.titleFooter}> 
-            <h1>CONTÁCTANOS</h1>
+            <h1 className={styles.contactanos}>CONTÁCTANOS</h1>
             <div >
                 <h3 className={styles.subtitlesFooter}>LLÁMANOS</h3>
-                <p className={styles.textInfo}>0000-000000</p>
+                <p className={styles.textInfo}>+58 4122257324 <br/>
++58 4241459403<br/>
++58 4129003500</p>
             </div>
         </div>
         <div className={styles.secondSection}>
             <hr />
             <div className={styles.infoFooter}>
                 <h3 className={styles.subtitlesFooter}>ENLACES DE INTERÉS</h3>
-                <a href="#enlace">Enlace 1</a><br />
+                <a href="https://inces.gob.ve/" target={"_blank"} rel={"noreferrer"}>www.inces.gob.ve</a><br />
                 <a href="#enlace">Enlace 2</a><br />
                 <a href="#enlace">Enlace 3</a><br />
                 <a href="#enlace">Enlace 4</a>

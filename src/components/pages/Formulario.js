@@ -6,7 +6,7 @@ import axios from 'axios'; //npm i axios
 import swal from 'sweetalert2'; //npm i sweetalert2
 
 const Formulario = () => {
-  const {register, handleSubmit, formState:{ errors }} = useForm()
+  const {register, handleSubmit, reset, formState:{ errors }} = useForm()
 
   const customSubmit = data => {
 
@@ -57,12 +57,13 @@ const Formulario = () => {
       </div>
       <div className='form-control'>
         <label>Curso:</label>
-        <select className='controls' {...register('cursos', {required:true})}>
+        <select className='controls' id='select-cursos' {...register('cursos', {required:true})}>
           <option value=''>--Elegir Curso--</option>
           <option value='Asistente Financiero'>Asistente Financiero</option>
           <option value='Asistente Contable'>Asistente Contable</option>
           <option value='Asistente de Informatica'>Asistente de Informatica</option>
           <option value='Asistente Administrativo'>Asistente Administrativo</option>
+          <option value='Asistente de Ventas'>Asistente de Ventas</option>
         </select>
         {errors.cursos?.type === 'required' && <small className='fail'>El campo no puede estar vacio</small> }
       </div>

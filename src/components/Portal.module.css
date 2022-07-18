@@ -32,3 +32,29 @@
 .informationOfCourse {
     margin: 40px;
 }
+
+.toDetails {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.detailsButton {
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D36E6E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.detailsButton:hover{
+    color: #fff;
+    background-color: black;
+}

@@ -16,8 +16,9 @@ hr{
 }
 
 .titleFooter{
-    width: 315px;
+    width: 715px;
     text-align: center;
+    /* padding-top: 35px; */
 }
 
 .firstSection {
@@ -35,7 +36,7 @@ hr{
 
 .infoFooter {
     margin-top: 82px;
-    font-family: 'Montserrat';
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
 }
 
@@ -45,6 +46,11 @@ a{
 }
 
 .textInfo{
-    font-family: 'Montserrat';
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
+    margin: 10px;
+}
+
+.contactanos{
+    margin-bottom: 35px;
 }

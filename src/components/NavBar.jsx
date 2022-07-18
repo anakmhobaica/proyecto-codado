@@ -8,16 +8,16 @@ export default function NavBar() {
     <nav className={styles.navBar}>
       <div className={styles.divLogoCodado}>
         <Link to='/' reloadDocument><img className={styles.logoCodado} src={logo} alt="logo"/></Link>
-      </div>
+      </div> 
       <div className={styles.elements}>
         <ul className={styles.links} >
-            <Link to={"/"} className={styles.linkNavbar} reloadDocument><li>Servicios</li></Link>
-            <Link to={'/cursos'} className={styles.linkNavbar} reloadDocument><li>Cursos</li></Link>
-            <Link to='/' className={styles.linkNavbar} reloadDocument><li>Contacto</li></Link>
-            <Link to='/' className={styles.linkNavbar} reloadDocument><li>Requerimientos</li></Link>
-            <span className={styles.line}></span>
+            <div className={styles.divOption}><Link to={"/"} className={styles.linkNavbar} reloadDocument><li>Empresas</li></Link><span className={styles.line}></span></div>
+            <div className={styles.divOption}><Link to={'/cursos'} className={styles.linkNavbar} reloadDocument><li>Cursos</li></Link><span className={styles.line}></span></div>
+            <div className={styles.divOption}><Link to='/contacto' className={styles.linkNavbar} reloadDocument><li>Contacto</li></Link><span className={styles.line}></span></div>
+            <div className={styles.divOption}><Link to='/requerimientos' className={styles.linkNavbar} reloadDocument><li>Requerimientos</li></Link><span className={styles.line}></span></div>
+            {/* <span className={styles.line}></span> */}
         </ul>
-            <Link to='/formulario' className={styles.linkForm} ><li>FORMULARIO</li></Link>
+            <Link to='/formulario' className={styles.linkForm} reloadDocument><li>FORMULARIO</li></Link>
       </div>
     </nav> 
   )

@@ -2,6 +2,7 @@ import React from 'react';
 import { createPortal } from 'react-dom';
 import { GrFormClose } from 'react-icons/gr';
 import styles from './Portal.module.css';
+import {Link} from 'react-router-dom'
 
 // const portalRoot = ReactDOM.createPortal (document.getElementById('portal'));
 
@@ -17,8 +18,11 @@ export default function Portal({ children, open, onClose }) {
           <div className={styles.informationOfCourse}>
             {children}
           </div>
+          <div className={styles.toDetails}>
+            <Link to="/requerimientos" className={styles.detailsButton} reloadDocument>Más información</Link>
+          </div>
         </div>
-    </>,
+    </>, 
     document.getElementById('portal')
   )
 }

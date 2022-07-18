@@ -22,7 +22,24 @@
     gap: 90px;
     padding: 40px;
     justify-content: center;
+    position: relative;
     margin-top: 75px;
     margin-left: 60px;
     margin-bottom: 75px;
+}
+
+.cusosText{
+    font-size: 12px;
+    color: black;
+}
+
+.textFlayer{
+    height: 206px;
+    width: 447px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'Inter';
+    text-align: left;
+    color: black;
+    margin-left: 90px;
 }
