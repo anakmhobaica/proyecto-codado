@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav className={styles.navBar}>
       <div className={styles.divLogoCodado}>
-        <Link to='/' reloadDocument><img className={styles.logoCodado} src={logo} alt="logo"/></Link>
+        <Link to='/' reloadDocument className={styles.linkLogo}><img className={styles.logoCodado} src={logo} alt="logo"/></Link>
       </div> 
       <div className={styles.elements}>
         <ul className={styles.links} >

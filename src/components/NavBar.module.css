@@ -43,6 +43,7 @@ li{
     width: 100%;
     padding: .75em;
     transition: .5s;
+    outline: none;
 }
 
 .linkNavbar:hover{
@@ -106,14 +107,8 @@ li{
     cursor: pointer;
 }
 
-.logoCodado:active{
+.linkLogo {
     outline: none;
-    text-decoration: none;
-}
-
-.logoCodado:focus{
-    outline: none;
-    text-decoration: none;
 }
 
 .divLogoCodado {
@@ -137,6 +132,7 @@ li{
     border: 1px solid #000000;
     padding: 10px;
     color: #000000;
+    outline: none;
     /* margin-left: 20px; */
 }
 

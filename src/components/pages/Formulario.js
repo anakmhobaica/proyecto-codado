@@ -23,7 +23,7 @@ const Formulario = () => {
     
     reset();
   };
-  console.log(errors);
+  console.log(errors); 
 
   return (
 
