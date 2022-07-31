@@ -2,16 +2,18 @@ import React from 'react'
 import {useForm} from 'react-hook-form';
 // import Navbar from '../Navbar'; 
 import '../Formulario.css';
-import axios from 'axios'; //npm i axios
+// import axios from 'axios'; //npm i axios
 import swal from 'sweetalert2'; //npm i sweetalert2
+import {db} from '../../db';
 
 const Formulario = () => {
-  const {register, handleSubmit, reset, formState:{ errors }} = useForm()
+  const {register, handleSubmit, reset, formState:{ errors }} = useForm();
 
   const customSubmit = data => {
 
-    axios.post('http://localhost:8080/api/save', data) //Cambiar url si es necesario 
-
+    // axios.post('http://localhost:8080/api/save', data) //Cambiar url si es necesario 
+    const datos = db.getCollection(('users'));
+    datos.insert(data)
     console.log(data);
 
     swal.fire({
@@ -19,6 +21,7 @@ const Formulario = () => {
       text: "Su informacion ha sido registrada exitosamente",
       icon: "success",
       confirmButtonText: "Aceptar",
+      confirmButtonColor: '#D36E6E',
     });
     
     reset();
@@ -45,10 +48,10 @@ const Formulario = () => {
       </div>
       <div className='form-control'>
         <label>Edad:</label>
-        <input className="controls" type="number" {...register('edad', {required:true, min:18, max:65})}/>
+        <input className="controls" type="number" {...register('edad', {required:true, min:16, max:18})}/>
         {errors.edad?.type === 'required' && <small className='fail'>El campo no puede estar vacio</small> }
-        {errors.edad?.type === 'min' && <small className='fail'>La edad minima es de 18 años</small> }
-        {errors.edad?.type === 'max' && <small className='fail'>La edad maxima es de 65 años</small> }
+        {errors.edad?.type === 'min' && <small className='fail'>La edad minima es de 16 años</small> }
+        {errors.edad?.type === 'max' && <small className='fail'>La edad maxima es de 18 años</small> }
       </div>
       <div className='form-control'>
         <label>Teléfono:</label>

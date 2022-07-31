@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import Formulario from "./components/pages/Formulario";
 import Requerimientos from "./components/pages/Requerimientos";
 import Contacto from "./components/pages/Contacto";
+import Admin from "./components/pages/Admin";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/formulario" element={<Formulario/>}/>
         <Route path="/requerimientos" element={<Requerimientos/>}/>
         <Route path="/contacto" element={<Contacto/>}></Route>
+        <Route path="/admin" element={<Admin/>}></Route>
       </Routes>
       <Footer/>
       <Copyright text={"@2022 Instituto Codado - Todos los derechos reservados "}/>
