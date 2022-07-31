@@ -1,0 +1,95 @@
+.listContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 100px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items {
+    width: 190px;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.listData {
+    padding-left: 0;
+}
+
+.infoTitle {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    width: 190px;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.inscritos {
+    color: black;
+}
+
+/* .edadTitle {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    width: 90px;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.edad {
+    width: 90px;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.correoTitle{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    width: 210px;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.correo {
+    width: 210px;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+} */

@@ -26,9 +26,6 @@ Esquina de Sociedad a San Francisco, Av. Universidad, Caracas 1012 Distrito Capi
             <div className={styles.infoFooter}>
                 <h3 className={styles.subtitlesFooter}>ENLACES DE INTERÉS</h3>
                 <a href="https://inces.gob.ve/" target={"_blank"} rel={"noreferrer"}>www.inces.gob.ve</a><br />
-                <a href="#enlace">Enlace 2</a><br />
-                <a href="#enlace">Enlace 3</a><br />
-                <a href="#enlace">Enlace 4</a>
             </div>
         </div>
     </footer>

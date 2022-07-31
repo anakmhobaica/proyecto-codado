@@ -27,25 +27,25 @@ export default function Home() {
             title={"PARTICIPANTES"} 
             image={image3} 
             direction={"right"}
-            titleHover={"Lorem Ipsum 1"}
+            titleHover={"Participantes"}
             text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
             <Section 
             title={"FACILITADORES"} 
             image={image4}
             direction={"right"}
-            titleHover={"Lorem Ipsum 2"}
+            titleHover={"Facilitadores"}
             text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
             <Section 
             title={"EL PROCESO"} 
             image={image5}
             direction={"left"}
-            titleHover={"Lorem Ipsum 3"}
+            titleHover={"El Proceso"}
             text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
             <Section 
             title={"COMUNIDADES"} 
             image={image6}
             direction={"left"}
-            titleHover={"Lorem Ipsum 4"}
+            titleHover={"Comunidades"}
             text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
         </div>
         <ImageBanner image={image2} direction={"flex-end"}>
