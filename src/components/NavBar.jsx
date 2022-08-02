@@ -11,7 +11,7 @@ export default function NavBar() {
       </div> 
       <div className={styles.elements}>
         <ul className={styles.links} >
-            <div className={styles.divOption}><Link to={"/"} className={styles.linkNavbar} reloadDocument><li>Empresas</li></Link><span className={styles.line}></span></div>
+            <div className={styles.divOption}><Link to={"/empresas"} className={styles.linkNavbar} reloadDocument><li>Empresas</li></Link><span className={styles.line}></span></div>
             <div className={styles.divOption}><Link to={'/cursos'} className={styles.linkNavbar} reloadDocument><li>Cursos</li></Link><span className={styles.line}></span></div>
             <div className={styles.divOption}><Link to='/contacto' className={styles.linkNavbar} reloadDocument><li>Contacto</li></Link><span className={styles.line}></span></div>
             <div className={styles.divOption}><Link to='/requerimientos' className={styles.linkNavbar} reloadDocument><li>Requerimientos</li></Link><span className={styles.line}></span></div>

@@ -28,6 +28,12 @@
     object-fit: cover;
 }
 
+.card-images{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
 .card-title{
     padding: 1rem;
     text-align: center;
