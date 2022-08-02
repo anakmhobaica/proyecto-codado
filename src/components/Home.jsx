@@ -28,25 +28,25 @@ export default function Home() {
             image={image3} 
             direction={"right"}
             titleHover={"Participantes"}
-            text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
+            text={"Nuestra razón de ser, en ellos nos inspiramos para que sin desperdicio puedan aprovechar durante todas las sesiones de aprendizaje de forma respetuosa y agradable."}/>
             <Section 
             title={"FACILITADORES"} 
             image={image4}
             direction={"right"}
             titleHover={"Facilitadores"}
-            text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
+            text={"Son nuestros embajadores, representan nuestra marca y comparten una filosofía de trabajo que nos diferencia de nuestros competidores."}/>
             <Section 
             title={"EL PROCESO"} 
             image={image5}
             direction={"left"}
             titleHover={"El Proceso"}
-            text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
+            text={"Educar y transferir conocimientos es un proceso dinámico que requiere el seguimiento y reforzamiento permanente de los conocimientos."}/>
             <Section 
             title={"COMUNIDADES"} 
             image={image6}
             direction={"left"}
             titleHover={"Comunidades"}
-            text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
+            text={"Participamos activamente en distintas comunidades del conocimiento, Universidades, gremios profesionales, cámaras regionales y sectoriales, ex participantes y comunidades virtuales."}/>
         </div>
         <ImageBanner image={image2} direction={"flex-end"}>
             <InformativeFlayer title={"CURSOS"} button={"Ver cursos"} marginRight={"120px"} link={"cursos"}>
