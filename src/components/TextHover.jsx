@@ -11,4 +11,4 @@ export default function TextHover({ title, text, direction }) {
       </div>
     </>
   )
-}
+} 
