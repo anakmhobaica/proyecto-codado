@@ -25,7 +25,7 @@ export default function CoursePage() {
 
   return (
     <>
-        <MainSlider 
+        <MainSlider  
         image={image} 
         title={"PROGRAMACIÓN DE CURSOS 2022"} 
         text={"Formatos prediseñados atendiendo a las tendecias del mercado, con posibilidad de ajustes y rediseños según sus requerimientos."}
